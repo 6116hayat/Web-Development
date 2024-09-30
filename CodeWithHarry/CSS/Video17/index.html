@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selector for the CSS</title>
+    <style>
+        /* Element Selector*/
+        h4{
+            color: brown;
+            background-color: aquamarine;
+        }
+
+        /* class Selector*/
+        .red{
+            color: aliceblue;
+            background-color: red;
+        }
+
+        /* Id Selector*/
+        #green{
+            color: rgb(203, 123, 19);
+            background-color: chartreuse;
+        }
+
+        /* Child Selector*/
+        div > p {
+            color: white;
+            background-color: rgb(81, 12, 81);
+        }
+
+        /* Descendant Selector*/
+        span p {
+            color: rgb(219, 219, 17);
+            background-color: rgb(90, 10, 239);
+        }
+
+        /* Universal Selector*/
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Pseudo Selector*/
+        a:visited{
+            color: orange;
+        }
+
+        a:link{
+            color: green;
+        }
+
+    </style>
+</head>
+<body>
+
+    <h4> This is Element Selector</h4>
+
+    <div class="red">
+        This is a Child Selector
+        <p>This is a class Selector</p>
+    </div>
+
+    <div id="green">
+        This is an Id selector
+    </div>
+
+    <span>
+        <article>
+            <p> This is Descendant Selector </p>
+        </article>
+    </span>
+
+    <a href="https://www.google.com"> Go to Google</a>
+    <a href="https://www.quora.com"> Go to Quora</a>
+
+</body>
+</html>
