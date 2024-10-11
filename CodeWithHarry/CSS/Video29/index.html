@@ -5,29 +5,69 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Exercise 3 :</title>
     <style>
-        .main{
-            padding: 30px;
-            margin: auto;
-            border: 5px solid lightslategray;
-            border-radius: 15px;
-            background-color: lightsalmon;
-            /* width: 450px; */
-            /* height: 600px; */
-            width: 37vw;
-            height: 85vh;
+        .body{
+
         }
 
-        .main .image{
-            padding: 20px;
-            margin: auto;
-            width: px;
+        .card{
+            border: 5px double rgb(114, 67, 42);
+            width: 450px;
+            height: 90vh;
+            border-radius: 20px;
+            
+        }
+
+        .card .image{
+            padding-left: 20px;
+            padding-top: 10px;
+        }
+
+        span{
+            padding: 5px 5px ;
+            background-color: lightgray;
+            border-radius: 50px ;
+            border: 0.5px solid black;
+            display: inline-block;
+        }
+
+        h2{
+            font-size: 35px;
+            color: rgba(6, 10, 72, 0.93);
+        }
+
+        p{
+            font-size: 29px;
+            color: rgb(90, 90, 85);
+        }
+
+        .card .image .button{
+            color: white;
+            background-color: blue;
+            display: inline-block;
+            border: 0.5px solid black;
+            border-radius: 50px;
         }
     </style>
 </head>
 <body>
-    <div class="main">
+    <div class="card">
         <div class="image">
-            <img src="https://images3.alphacoders.com/135/thumb-440-135625.webp" alt="Naruto">
+            <img src="https://th.bing.com/th?id=OIP.Jc8xm_Qbo-L4PJkzPI-OBQHaEo&w=316&h=197&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2" alt="Naruto">
+
+            <span>
+                Anime 
+            </span>
+            <span>
+                Naruto 
+            </span>
+
+            <h2> Greatest Anime </h2>
+
+            <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas, tempora?</p>
+
+            <div class="button">
+                Read More
+            </div>
         </div>
     </div>
 </body>
