@@ -4,8 +4,101 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exercise 3 solution</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Poppins:wght@300&display=swap');
+
+        @font-face{
+            font-family: 'njnaruto';
+            src: local('Materials\njnaruto.ttf') format(truetype);
+        }
+
+        body{
+            background-color: rgb(235, 139, 71);
+        }
+
+        .card{
+            background-color: rgb(234, 234, 82);
+            width: 360px;
+            height: 500px;
+            border-radius: 33px;
+            border: 5px double black;
+        }
+
+        .image{
+            padding: 20px 20px ;
+        }
+
+        .image img{
+            border-radius: 10px;
+            border: 5px double darkblue;
+        }
+
+        .capsule{
+            padding: 0px 14px;
+        }
+
+        .capsule span{
+            padding: 0px 6px;
+            font-size: 18px;
+            border: 1px solid black;
+            border-radius: 5px;
+            background-color: rgb(229, 58, 58);
+            color: whitesmoke;
+        }
+
+        .content{
+            padding: 7px 15px;
+        }
+
+        .content h2{
+            font-size: 30px;
+            font-family: 'njnaruto', sans-serif;
+        }
+
+        .content p{
+            font-size: 17px;
+            font-family: 'Baloo Bhai 2', sans-serif; 
+        }
+
+        .button{
+            text-align: center;
+        }
+
+        .button button{
+            padding: 5px 10px;
+            border-radius: 10px;
+            background-color: rgb(117, 224, 165);
+            font-weight: bold;
+            font-size: 15px;
+            cursor: pointer;
+        }
+
+        .button button:hover{
+            background-color: rgb(44, 44, 153);
+            color: white;
+        }
+    </style>
 </head>
 <body>
-    <div class="card"></div>
+    <div class="card">
+        <div class="image">
+            <img width="310px" src="https://th.bing.com/th?id=OIP.Jc8xm_Qbo-L4PJkzPI-OBQHaEo&w=316&h=197&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2" alt="Naruto">
+        </div>
+
+        <div class="capsule">
+            <span> Anime</span>
+            <span> Naruto</span>
+        </div>
+
+        <div class="content">
+            <h2> Naruto</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos corporis iure voluptatum.</p>
+        </div>
+
+        <div class="button">
+            <button> Read More</button>
+        </div>
+
+    </div>
 </body>
 </html>
