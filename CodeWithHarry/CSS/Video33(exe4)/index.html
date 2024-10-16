@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> CSS MultiColor Nav Bar</title>
+    <style>
+        :root{
+            --maincolor: rgb(68, 67, 76);
+            --basecolor: rgb(0, 0, 0);
+            --homecolor:orange;
+            --aboutcolor: white;
+            --contactcolor:green;
+        }
+
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        .nav{
+            background-color: var(--maincolor);
+        }
+
+        ul{
+            display: flex;
+            color: var(--basecolor);
+        }
+
+        ul li{
+            padding: 20px;
+            list-style: none;
+            border: 2px solid black;
+        }
+
+        .home{
+            background-color: var(--homecolor);
+        }
+
+        .about{
+            background-color: var(--aboutcolor);
+        }
+
+        .contact{
+            background-color: var(--contactcolor);
+        }
+    </style>
+</head>
+<body>
+    Create a multicolor website which can change color using CSS Variables
+
+    <div class="nav">
+        <ul>
+            <li class="home">Home</li>
+            <li class="about">About</li>
+            <li class="contact">Contact</li>
+        </ul>
+    </div>
+</body>
+</html>
