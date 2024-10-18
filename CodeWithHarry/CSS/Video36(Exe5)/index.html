@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercies 5</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+
+        :root{
+            --maincolor: rgb(24, 119, 153);
+            --basecolor1: rgb(42, 191, 67);
+            --basecolor2: rgb(220, 165, 64);
+            --basecolor3: rgb(215, 55, 145);
+            --basecolor4: rgb(170, 81, 211);
+        }
+
+        body{
+            background-color: grey;
+        }
+
+
+        nav{
+            background-color: var(--basecolor1);
+            padding: 12px 0px;
+            border: 2px double white;
+            position: sticky;
+        }
+
+        nav ul{
+            list-style: none;
+        }
+
+        ul li{
+            font-size: 25px;
+            padding: 23px;
+            display: inline;
+            font-weight: bolder;
+        }
+
+        .mainbox {
+            background-color: var(--maincolor);
+            display: flex;
+        }
+
+        .box1{
+            background-color: var(--basecolor3);
+            width: 620px;
+            height: 520px;
+            margin: 25px 60px;
+            text-align: center;
+            font-size: 40px;
+        }
+
+        .box2{
+            background-color: var(--basecolor2);
+            width: 620px;
+            height: 520px;
+            margin: 25px 30px;
+            text-align: center;
+            font-size: 40px;
+        }
+
+        .lastbox{
+            background-color: var(--basecolor4);
+            border: 5px solid rgb(132, 43, 43);
+            width: 340px ;
+            height: 250px;
+            text-align: center;
+            margin: 8px 100px;
+        }
+
+        footer{
+            background-color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Services</li>
+                <li>Contact Us</li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="mainbox">
+        <div class="box1">
+            I am Box 1
+        </div>
+
+        <div class="box2">
+            I am Box 2
+        </div>
+    </div>
+
+    <div class="lastbox">
+        <h1> Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam possimus ullam quam hic?
+        </h1>
+    </div>
+
+    <footer>
+        This is a footer
+    </footer>
+
+</body>
+</html>
