@@ -21,14 +21,16 @@
 
         body{
             background-color: grey;
+            position: relative;
         }
 
-
-        nav{
+        .nav{
             background-color: var(--basecolor1);
             padding: 12px 0px;
             border: 2px double white;
             position: sticky;
+            top: 0px;
+            z-index: 0px;
         }
 
         nav ul{
@@ -65,31 +67,39 @@
             font-size: 40px;
         }
 
+        .icon{
+            width: 50px;
+        }
+
         .lastbox{
             background-color: var(--basecolor4);
             border: 5px solid rgb(132, 43, 43);
-            width: 340px ;
-            height: 250px;
+            width: 620px ;
+            height: 300px;
             text-align: center;
-            margin: 8px 100px;
+            margin: 50px 50px 80px;
+            border-radius: 50px;
         }
 
-        footer{
+        .footer{
             background-color: white;
+            height: 250px;
+            text-align: center;
+            font-size: 50px;
         }
     </style>
 </head>
 <body>
-    <header>
-        <nav>
+    <div class="header">
+        <div class="nav">
             <ul>
                 <li>Home</li>
                 <li>About</li>
                 <li>Services</li>
                 <li>Contact Us</li>
             </ul>
-        </nav>
-    </header>
+        </div>
+    </div>
 
     <div class="mainbox">
         <div class="box1">
@@ -101,13 +111,17 @@
         </div>
     </div>
 
+    <img src="Materials\soccerIcon.png" alt="Icon" class="icon">
+
     <div class="lastbox">
         <h1> Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam possimus ullam quam hic?
         </h1>
     </div>
 
     <footer>
-        This is a footer
+        <div class="footer">
+            <p>This is a Footer</p>
+        </div>
     </footer>
 
 </body>
