@@ -11,26 +11,16 @@
             font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         }
 
-        :root{
-            --maincolor: rgb(24, 119, 153);
-            --basecolor1: rgb(42, 191, 67);
-            --basecolor2: rgb(220, 165, 64);
-            --basecolor3: rgb(215, 55, 145);
-            --basecolor4: rgb(170, 81, 211);
-        }
-
-        body{
-            background-color: grey;
-            position: relative;
-        }
-
-        .nav{
-            background-color: var(--basecolor1);
-            padding: 12px 0px;
-            border: 2px double white;
+        header{
             position: sticky;
             top: 0px;
-            z-index: 0px;
+        }
+
+        nav{
+            background-color: rgb(85, 228, 85);
+            padding: 12px 0px;
+            height: 83px;
+            border: 2px double white;
         }
 
         nav ul{
@@ -44,84 +34,98 @@
             font-weight: bolder;
         }
 
-        .mainbox {
-            background-color: var(--maincolor);
-            display: flex;
+        main{
+            background-color: black;
+            color: white;
+            padding: 34px;
+        }
+
+        .main-box {
+            background-color: rgb(136, 102, 239);
+            padding: 55px 23px;
+            margin: 12px 34px;
+            text-align: center;
         }
 
         .box1{
-            background-color: var(--basecolor3);
-            width: 620px;
-            height: 520px;
-            margin: 25px 60px;
+            background-color: rgb(226, 98, 119);
+            width: 45%;
+            height: 70vh;
+            margin: 12px 30px;
             text-align: center;
             font-size: 40px;
+            display: inline-block;
         }
-
+        
         .box2{
-            background-color: var(--basecolor2);
-            width: 620px;
-            height: 520px;
-            margin: 25px 30px;
+            background-color: rgb(48, 48, 172);
+            width: 45%;
+            height: 70vh;
+            margin: 12px 30px;
             text-align: center;
             font-size: 40px;
+            display: inline-block;
         }
 
-        .icon{
-            width: 50px;
+        .orange-box {
+            height: 32px;
+            width: 32px;
+            background: orange;
+            position: fixed;
+            bottom: 12px;
+            right: 23px;
+            border-radius: 60px;
         }
 
         .lastbox{
-            background-color: var(--basecolor4);
-            border: 5px solid rgb(132, 43, 43);
-            width: 620px ;
-            height: 300px;
-            text-align: center;
-            margin: 50px 50px 80px;
-            border-radius: 50px;
+            padding: 34px;
+            border: 2px solid white;
+            margin: 50px 34vw;
+            font-size: 1.5em;
+            border-radius: 13px;
         }
 
-        .footer{
-            background-color: white;
-            height: 250px;
+        footer{
+            background-color: rgb(238, 233, 104);
+            height: 100px;
             text-align: center;
-            font-size: 50px;
+            font-size: 1em;
         }
     </style>
 </head>
 <body>
-    <div class="header">
-        <div class="nav">
+    <header>
+        <nav>
             <ul>
                 <li>Home</li>
                 <li>About</li>
                 <li>Services</li>
                 <li>Contact Us</li>
             </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="main-box">
+            <div class="box1">
+                I am Box 1
+            </div>
+            
+            <div class="box2">
+                I am Box 2
+            </div>
         </div>
-    </div>
 
-    <div class="mainbox">
-        <div class="box1">
-            I am Box 1
+        <div class="orange-box"></div>
+        
+        <div class="lastbox">
+            <h1> Lorem ipsum dolor sit amet consectetur 
+            </h1>
         </div>
-
-        <div class="box2">
-            I am Box 2
-        </div>
-    </div>
-
-    <img src="Materials\soccerIcon.png" alt="Icon" class="icon">
-
-    <div class="lastbox">
-        <h1> Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam possimus ullam quam hic?
-        </h1>
-    </div>
-
+    </main>
+        
     <footer>
-        <div class="footer">
-            <p>This is a Footer</p>
-        </div>
+        this is footer
     </footer>
 
 </body>
