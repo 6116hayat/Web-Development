@@ -6,79 +6,122 @@
     <title>Exercise 6</title>
     <style>
         body{
-            background-color: black;
+            text-align: center;
+            margin: 0;
+            padding: 0;
         }
 
-        header{
-            background-color: rgb(248, 179, 179);
-            height: 50px;
-        } 
+        .header{
+            padding: 20px;
+        }
 
-        .logo{
-            width: 100px ;
+        .header h1{
+            display: inline;
+            margin-right: 10px;
         }
         
-        .main-header{
-            text-align: center;
-            padding: 30px 10px;
+        .header img{
+            vertical-align: middle;
         }
 
-        nav{
-            background-color: rgb(152, 194, 230);
-            height: 30px;
+        .download-area{
+            padding: 20px;
         }
 
-
-        main{
-            background-color: rgb(79, 187, 106);
-            height: 500px;
-            justify-items: center;
-        }
-
-        .main-content{
-            text-align: center;
-            font-size: 20px;
-            padding: 100px 30px;
+        .download-area p{
+            font-size: 22px;
         }
 
         .download-button{
-            background-color: rgb(23, 96, 241);
+            background-color: aqua;
             color: white;
-            border-radius: 5px;
             display: inline-block;
-            padding: 5px 15px;
-            text-decoration: none;
+            border-radius: 5px;
+            margin: 15px;
         }
 
-        footer{
-            background-color: rgb(232, 209, 107);
-            height: 100px;
+        .version{
+            
         }
 
+        .version .special{
+            font-size: 20px;
+        }
+
+        .lang-section{
+            padding: 20px 50px;
+            display: flex;
+        }
+
+        .lang-section .lang-card{
+            border: solid black;
+            background-color: rgb(235, 227, 227);
+            padding: 20px;
+            margin: 20px 100px;
+        }
+
+        .lang-section .lang-button{
+            background-color: rgb(85, 149, 85);
+            color: white;
+            display: inline-block;
+        }
+
+        .lang-section .SHA256{
+            font-size: 15px;
+        }
+
+        .lang-section .scribble{
+            font-size: 8px;
+            display: i
+        }
+
+        
     </style>
 </head>
 <body>
-    <header>
-        <nav>
-            <img src="UltraEdit.png" alt="UltraEdit Logo" class="logo">
-        </nav>
-        <div class="main-header"> 
-            <h1>Download UltraEdit for Windows </h1>
+
+    <div class="header">
+        <img src="UltraEdit.png" alt="Ultra Edit" class="logo">
+        <h1>UltraEdit</h1>
+    </div>
+
+    <div class="download-area">
+        <h1>Download UltraEdit for Windows</h1>
+        <p>Download and try UltraEdit before you buy it! This download includes the full Windows version of the text editor.</p>
+    </div>
+    <div class="download-button">
+        <p>DOWNLOAD MAC OR LINUX VERSION</p>
+    </div>
+
+    <div class="version">
+        <img src="UltraEdit2.png" alt="UltraEdit Logo" class="circular">
+        <p class="special">Download UltraEdit</p>
+        <p class="normal">v2024.1(released 2024-08-27) | Hotfix information (2024-08-18)</p>
+    </div>
+
+    <div class="lang-section">
+        <div class="lang-card">
+            <h3>English</h3>
+            <div class="lang-button"> Download 64-bit</div>
+            <p class="SHA256"> SHA256</p>
+            <p class="scribble">3C783C0872319DE70343C2C79D9E0024FDA3F1DB472B8F1119343D42190AAD8C </p>
         </div>
-    </header>
 
-    <main>
-        <div class="main-content">
-            <p>Download and try UltraEdit before you buy it! This download includes the full Windows version of the text editor.</p>
+        <div class="lang-card">
+            <h3>Deutsch</h3>
+            <p>German</p>
+            <div class="lang-button"> Download 64-bit</div>
+            <p class="SHA256"> SHA256</p>
+            <p class="scribble">3C783C0872319DE70343C2C79D9E0024FDA3F1DB472B8F1119343D42190AAD8C </p>
         </div>
 
-        <div class="download-button">
-            <h3> Download Mac or Linux version</h3>
+        <div class="lang-card">
+            <h3>Italiano</h3>
+            <p>Italian</p>
+            <div class="lang-button"> Download 64-bit</div>
+            <p class="SHA256"> SHA256</p>
+            <p class="scribble">3C783C0872319DE70343C2C79D9E0024FDA3F1DB472B8F1119343D42190AAD8C </p>
         </div>
-    </main>
-
-    <footer>
-
-    </footer>
+    </div>
 </body>
 </html>
