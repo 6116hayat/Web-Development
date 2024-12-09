@@ -1,0 +1,17 @@
+Ques. What is CallBack function??
+Ans.  A callback function is a function that is passed as an argument to another function, which is then invoked or "called back" at a later time after some operation is completed. This allows you to execute a function after the completion of another function.
+
+In simple terms :-
+→ A callback function is like giving someone a task to do after you finish your own task.
+
+→ You tell one function to do something, and then you pass another function (the callback) to be done after the first one finishes.
+
+
+Ques. What are promises?
+Ans.  Promises in JavaScript are a way to handle asynchronous operations, making your code more manageable and readable. They represent a value that may be available now, in the future, or never. Promises are particularly useful for handling things like API calls, where you have to wait for a response from a server.
+
+Here's a simple explanation:
+
+Imagine you order a book online. The order is like making a promise.
+
+At the moment you order, you don't have the book yet, but the promise is that you'll either get the book (resolved) or something will go wrong (rejected).
