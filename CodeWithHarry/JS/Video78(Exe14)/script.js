@@ -11,7 +11,7 @@ async function main(){
                 let thing1 = document.createElement('h1');
                 
                 // Set the content
-                thing1.textContent = "Intializing Hacking";
+                thing1.textContent = ">>> Intializing Hacking";
                 
                 // append
                 textbox.appendChild(thing1);
@@ -31,7 +31,7 @@ async function main(){
                 let thing2 = document.createElement('h1');
                 
                 // Set the content
-                thing2.textContent = "Reading your Private Files";
+                thing2.textContent = ">>> Reading your Private Files";
                 
                 // append
                 textbox.appendChild(thing2);
@@ -51,7 +51,7 @@ async function main(){
                 let thing3 = document.createElement('h1');
                 
                 // Set the content
-                thing3.textContent = "Password Files Detected";
+                thing3.textContent = ">>> Password Files Detected";
                 
                 // append
                 textbox.appendChild(thing3);
@@ -71,7 +71,7 @@ async function main(){
                 let thing4 = document.createElement('h1');
                 
                 // Set the content
-                thing4.textContent = "Sending Private Data to Server";
+                thing4.textContent = ">>> Sending Private Data to Server";
                 
                 // append
                 textbox.appendChild(thing4);
@@ -91,7 +91,7 @@ async function main(){
                 let thing5 = document.createElement('h1');
                 
                 // Set the content
-                thing5.textContent = "Cleaning up";
+                thing5.textContent = ">>> Cleaning up";
                 
                 // append
                 textbox.appendChild(thing5);
